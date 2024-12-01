@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page {
+    padding: 20px;
+    min-height: 100vh;
+    display: none;
+  }
+  
+  .page:not(.hidden) {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .tab {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    text-decoration: underline;
+  }

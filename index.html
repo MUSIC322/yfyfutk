@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Переключение страниц</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="page" id="page1">
+    <h1>Страница 1</h1>
+    <p>Содержимое первой страницы.</p>
+  </div>
+  <div class="page hidden" id="page2">
+    <h1>Страница 2</h1>
+    <p>Содержимое второй страницы.</p>
+  </div>
+
+  <div class="bottom-bar">
+    <button class="tab" onclick="showPage('page1')">Страница 1</button>
+    <button class="tab" onclick="showPage('page2')">Страница 2</button>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
